@@ -14,4 +14,15 @@ print(len(str(temp)))'''
 #     n //= 10
 # print(s)
 
-n = int(input())
+# n = int(input())
+# e_count = 0
+# o_count = 0
+# while n > 0:   
+#     n //= 10
+#     if (n // 10) % 2 == 0:
+#         e_count += 1
+#     else:
+#         o_count += 1
+# print(e_count)
+# print(o_count)
+
