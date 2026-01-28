@@ -26,3 +26,7 @@ print(len(str(temp)))'''
 # print(e_count)
 # print(o_count)
 
+n = int(input())
+while n > 0:
+    n = sum(list(map(int, str(n))))
+print(n)
