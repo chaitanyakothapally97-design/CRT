@@ -110,11 +110,21 @@ for i in range(n):
     a += diff'''
 
 #d) 1, 2, 6, 24, 120, .....
-n = int(input("Enter a number: "))
+'''n = int(input("Enter a number: "))
 a = 1
 increment = 1
 for i in range(n):
     print(a, end = " ")
     increment += 1
-    a *= increment
+    a *= increment'''
 
+# Using while loop
+n = int(input("Enter a number: "))
+a = 1
+increment = 1
+i = 0
+while i < n:    
+    print(a, end = " ")
+    increment += 1
+    a *= increment
+    i += 1
