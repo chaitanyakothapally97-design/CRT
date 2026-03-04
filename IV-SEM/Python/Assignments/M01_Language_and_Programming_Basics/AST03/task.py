@@ -1,5 +1,6 @@
 def Student_Grade_System(name:str,n1: int,n2: int,n3: int) -> str:
    avg = (n1 + n2 + n3) / 3
+   avg = int(avg * 100) / 100
 
    if avg >= 35:
        status = "Pass"
