@@ -86,3 +86,34 @@ class Solution:
                 x += 1
         return x == 0 and y == 0
 '''
+#S03. Dictionaries:
+'''
+1. Definition: Stores Data in form of key and value pairs. 
+2.Create a dictionary using {} and key-value pairs separated by a colon (:).
+3. Accessing values in a dictionary using keys.
+'''
+d = {"name": "Chaitu", "age": 21}
+print(d)
+d2 = dict(name="Chinnu", age=18)
+print(d2)
+print(d2["name"])
+print(d2.get("age"))
+print(d2.keys())
+print(d2.values())
+d2['Place'] = 'Hyderabad'
+print(d2)
+del d2['age']
+print(d2)
+
+'''
+LeetCode problem: 1. Two Sum: Given an array of integers nums and an integer target,
+ return indices of the two numbers such that they add up to target.
+class Solution:
+    def twoSum(self, nums, target):
+        num_dict = {}
+        for i, num in enumerate(nums):
+            complement = target - num
+            if complement in num_dict:
+                return [num_dict[complement], i]
+            num_dict[num] = i
+'''
