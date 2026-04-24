@@ -35,5 +35,4 @@ def Binary_Search(nums, target):
 
     return -1
 
-print(Binary_Search([12, 25, 36, 47, 10, 58], 10)) 
-
+print(Binary_Search([12, 25, 36, 47, 10, 58], 10))
